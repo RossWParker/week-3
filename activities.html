@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Activities in Kentucky</title>
+    <!-- linking Bootstrap and syling CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+
+    <!-- Bootstrap Navigation Bar creating a dark backround -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- styling the brand in the nav bar Kentucky adventures -->
+        <a class="navbar-brand" href="#">Kentucky Adventures</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content for Activities Page aligning center-->
+    <div class="container mt-4">
+       <h1 style="text-align: center;">Things to do in Kentucky</h1> 
+       <p style="text-align: center;">Discover the exciting activities the Bluegrass State has to offer.</p> 
+    
+       
+        <!-- HTML table using Bootstrap framework <th> (table header) is being used to define our table-->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Activity</th>
+                    <th scope="col">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Hiking</td>
+                    <td>Red River Gorge</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Horseback Riding</td>
+                    <td>Lexington</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Bourbon Tasting</td>
+                    <td>Various Distilleries</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>View the beautiful Lake Cumberland</td>
+                  <td>Somerset, Ky</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Kentucky Derby</td>
+                <td>Louisville, Ky</td>
+            </tr>
+            </tbody>
+        </table>
+<br>
+<br>
+
+<!--adding picture to activities page-->
+<img src="https://i.gyazo.com/88a8512e50f296b5aff62e7c5ebe6bef.jpg" alt="Kentucky Derby" class="img-fluid">
+       <br>
+       <br>
+        <!-- HTML-Bootstrap Form planning trip to Kentucky -->
+        <form>
+
+         <h3 style="text-align: center;"> Plan your trip to Kentucky today! </h3>
+          <br>
+          <br>
+         
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="contact-us">Submit</button>
+          
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

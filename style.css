@@ -1,0 +1,44 @@
+p {
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+  
+h2 {
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+
+}
+
+.group label {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+
+ 
